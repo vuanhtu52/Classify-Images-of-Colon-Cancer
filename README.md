@@ -6,14 +6,14 @@ This project aims to  develop a machine learning system that can classify histop
 
 For the first 60 patients, the medical experts have provided labels for isCancerous and cell-type. However, for the remaining 39 patients, the medical experts have only provided labels for isCancerous.
 
-![(a) Example histopathelogy image of the colon with individual cells marked with "blue" rectangles of size 27x27. (b) Example of different cell types present in histopathelogy images of the colon.](Images/cells.png)
+![(a) Example histopathelogy image of the colon with individual cells marked with "blue" rectangles of size 27x27. (b) Example of different cell types present in histopathelogy images of the colon.](Images/cells.PNG)
 
 ## Experiment Design
 | | Total instances | Fibroblast | Inflammatory | Epithelial | Miscellaneous | Normal | Cancerous |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | _**Main dataset**_ |
 | Train | 6332 | 1208 | 1627 | 2610 | 887 | 3722 | 2610 |
-| Validation | 1584 | 302 | 407 | 653 | 222 | 931 | 653 |
+| Validation | 1584 | 302 | 407 | 653 | 222 | 931 | 653 | 
 | Test | 1980 | 378 | 509 | 816 | 277 | 1164 | 816 |
 | _**Extra dataset**_ |
 | Train | 8307 | N/A | N/A | N/A | N/A | 5915 | 2392 |
